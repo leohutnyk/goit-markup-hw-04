@@ -215,7 +215,16 @@ img {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-.icon {
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
 }
 
 .benefits-list-title {
@@ -276,12 +285,41 @@ img {
 }
 
 .team-member-description {
+  margin-bottom: 8px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #fff;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #303030;
+  fill: #ffffff;
 }
 /* ============= /TEAM SECTION STYLES ============= */
 
@@ -342,7 +380,7 @@ img {
 }
 
 .footer-logo {
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -366,6 +404,20 @@ img {
   color: #f4f4fd;
 }
 
-.footer-social-media {
+.footer-media-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #fff;
 }
 /* ============= /FOOTER STYLES ============= */
