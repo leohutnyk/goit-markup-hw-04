@@ -248,11 +248,6 @@ img {
   background: #f4f4fd;
 }
 
-.benefits-icon {
-  width: 64px;
-  height: 64px;
-}
-
 .benefits-list-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -291,13 +286,8 @@ img {
   width: calc((100% - 3 * 24px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-member-item:hover {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-member-card {
@@ -343,13 +333,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover .social-list-link:focus {
+.social-list-link:hover, .social-list-link:focus {
   background-color: #404bbf;
-}
-
-.icon {
-  width: 16px;
-  height: 16px;
 }
 
 /* ============= /TEAM SECTION STYLES ============= */
@@ -377,8 +362,9 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.porfolio-list-item:hover .porfolio-list-item:focus {
-  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.porfolio-list-item:hover, .porfolio-list-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-image {
@@ -507,14 +493,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-media-link:hover .footer-media-link:focus {
+.footer-media-link:hover, .footer-media-link:focus {
   background-color: #31d0aa;
-}
-
-.footer-icon {
-  width: 24px;
-  height: 24px;
-  fill: #f4f4fd;
 }
 
 /* ============= /FOOTER STYLES ============= */
