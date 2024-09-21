@@ -321,6 +321,10 @@ img {
   gap: 24px;
 }
 
+.icon {
+  fill: #f4f4fd;
+}
+
 .social-list-link {
   display: flex;
   align-items: center;
@@ -495,6 +499,10 @@ img {
 
 .footer-media-link:hover, .footer-media-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
 }
 
 /* ============= /FOOTER STYLES ============= */
